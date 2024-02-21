@@ -6,8 +6,9 @@ export default {
     extend: {
       colors: {
         primary: "#38BDF8",
-        dark: "#071952",
-        darkBackground: "black",
+        dark: "black",
+        darkBackground: "#000000",
+        darkBackgroundAlt: "#050301",
         darkText: "#35A29F",
         darkTextHover: "#97FEED",
       },

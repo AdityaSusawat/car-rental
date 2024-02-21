@@ -36,22 +36,11 @@ interface NavbarProps {
 }
 
 export default function Navbar({ theme, setTheme }: NavbarProps) {
-  const element = document.documentElement;
-  useEffect(() => {
-    if (theme == "dark") {
-      element.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      element.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    }
-  }, [theme]);
-
   return (
     <nav
       className="shadow-md 
     bg-white 
-    dark:bg-dark dark:text-darkText duration-300"
+    dark:bg-darkBackgroundAlt dark:text-darkText duration-300"
     >
       <div className="container">
         <div className="flex justify-between items-center">
