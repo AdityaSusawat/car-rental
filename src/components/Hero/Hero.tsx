@@ -11,15 +11,14 @@ export default function Hero({ theme }: SectionProps) {
       className="dark:bg-darkBackground 
     dark:text-darkText 
     duration-300
-    relative
-    -z-20"
+    relative"
     >
       <div className="container min-h-[600px] flex">
         <div
           className="grid place-items-center 
         grid-cols-1 sm:grid-cols-2"
         >
-          <div className="order-2 sm:order-1 space-y-4 sm:pr-6">
+          <div className="order-2 sm:order-1 space-y-4 sm:pr-8">
             <p
               className="dark:text-darkTextHover text-2xl font-serif"
               data-aos="fade-up"
@@ -39,13 +38,7 @@ export default function Hero({ theme }: SectionProps) {
               I hate the color scheme of this website. I wish I had the time to
               research for better images.
             </p>
-            <button
-              className="bg-primary
-             text-black px-6 py-3 rounded-md
-              hover:bg-primary/80 duration-300"
-            >
-              Get Started
-            </button>
+            <button className="btn">Get Started</button>
           </div>
           <div
             className="order-1 sm:order-2"
