@@ -40,7 +40,7 @@ export default function Navbar({ theme, setTheme }: NavbarProps) {
     <nav
       className="shadow-md 
     bg-white 
-    dark:bg-darkBackgroundAlt dark:text-darkText duration-300"
+    dark:bg-darkBackgroundAlt dark:text-darkText duration-300 py-2"
     >
       <div className="container">
         <div className="flex justify-between items-center">
