@@ -7,6 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   const [theme, setTheme] = useState<string>(() => {
@@ -49,6 +50,7 @@ export default function App() {
       <Hero theme={theme} />
       <About />
       <Services />
+      <Footer />
       {/* <Tmp /> */}
     </>
   );
